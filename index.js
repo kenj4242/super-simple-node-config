@@ -1,7 +1,7 @@
 const fs = require('fs')
 
 module.exports = function(filename) {
-	filename = ifexists(filename || process.env.NODE_CONFIG);
+	filename = filename ? ifexists(filename) : ifexists(process.env.NODE_CONFIG);
 	return require(filename);
 }
 
