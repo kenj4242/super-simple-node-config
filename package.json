@@ -1,0 +1,26 @@
+{
+  "name": "super-simple-node-config",
+  "version": "1.0.0",
+  "description": "Super simple node config",
+  "main": "index.js",
+  "scripts": {
+    "test": "env NODE_CONFIG=test/conf1.json mocha test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenj4242/super-simple-node-config.git"
+  },
+  "author": {
+    "name": "Ken Johnson",
+    "email": "kenj4242@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kenj4242/super-simple-node-config/issues"
+  },
+  "homepage": "https://github.com/kenj4242/super-simple-node-config#readme",
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
