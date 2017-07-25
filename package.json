@@ -4,7 +4,7 @@
   "description": "Super simple node config",
   "main": "index.js",
   "scripts": {
-    "test": "env NODE_CONFIG=test/conf1.json mocha test/index.js"
+    "test": "env NODE_ENV=testing NODE_CONFIG=test/conf1.json mocha test/index.js"
   },
   "repository": {
     "type": "git",
