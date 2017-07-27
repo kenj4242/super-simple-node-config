@@ -16,7 +16,7 @@ function ifexists(filename) {
 		return fs.realpathSync(filename);
 	} catch(e) {
 		if (e.code == 'ENOENT') {
-			e.mssg = "Config file not found: ("+filename+") "
+			e.message = "Config file not found: ("+filename+") "
 				+"Check your specified file path,"
 				+"or try setting the NODE_CONFIG environment variable to your config file path";
 			throw e;
